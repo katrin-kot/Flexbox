@@ -48,6 +48,10 @@
             <li>a flex container — the parent container</li>
             <li>flex elements — child blocks</li>
           </ul>
+          <aside class="notes"> A Flexbox consists of:
+            a flex-container-the parent container,
+            flex elements - child blocks
+          </aside>
         </section>
         <section>
           <h4>The flexbox module allows you to solve the following tasks:</h4>
@@ -66,6 +70,7 @@
             <li>Create columns of the same height;</li>
             <li>Create pressed to the bottom of the page;</li>
           </ul>
+          <aside class="notes">The flexbox module allows you to solve the following tasks.You can see them on the screen. </aside>
         </section>
         <section>
           <section>
@@ -79,6 +84,7 @@
               }
 							</code></pre>
             <img src="images/flex.jpg" alt="" />
+            <aside class="notes">To make the block flex you need to add a property to the parent container: display:flex</aside>
           </section>
           <section>
             <h2>The flex container properties are:</h2>
@@ -90,6 +96,7 @@
               <li>align-items</li>
               <li>align-content</li>
             </ul>
+            <aside class="notes">This is other properties.</aside>
           </section>
           <section>
             <img src="images/direction.jpg" alt="" />
@@ -98,6 +105,7 @@
                 flex-direction: row | row-reverse | column | column-reverse;
               }
             </code></pre>
+            <aside class="notes">This property arranges items in a row or in a column.</aside>
           </section>
           <section>
             <img src="images/wrap.jpg" alt="" />
@@ -106,6 +114,9 @@
                 flex-wrap: nowrap | wrap | wrap-reverse;
               }
              </code></pre>
+             <aside class="notes">nowrap (default): all flex items will be on one line
+              wrap: flex items will wrap onto multiple lines, from top to bottom.
+              wrap-reverse: flex items will wrap onto multiple lines from bottom to top.</aside>
           </section>
           <section>
             <h3>flex-flow</h3>
@@ -114,6 +125,7 @@
             flex-flow: <‘flex-direction’> || <‘flex-wrap’>
           }
         </code></pre>
+        <aside class="notes">This is a shorthand flex-direction and flex-wrap properties</aside>
           </section>
           <section><img src="images/justify.jpg" alt="" /></section>
           <section>
@@ -123,6 +135,7 @@
                 justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
               }
           </code></pre>
+          <aside class="notes">This property positions elements horizontally.</aside>
           </section>
           <section>
             <img src="images/align-items.jpg" alt="" />
@@ -132,6 +145,7 @@
                 align-items: flex-start | flex-end | center | baseline | stretch;
               }
             </code></pre>
+            <aside class="notes">This property positions elements vertically.</aside>
           </section>
           <section>
               <img src="images/align-content.JPG" alt="" />
@@ -155,6 +169,7 @@
                   order: <integer>; /* default is 0 */
                 }
               </code></pre>
+              <aside class="notes">The order property controls the order in which they appear in the flex container.</aside>
         </section>
         <section>
             <img src="images/flex-grow.JPG" alt="" />
@@ -164,6 +179,7 @@
                   flex-grow: <number>; /* default is 0 */
                 }
               </code></pre>
+              <aside class="notes">It dictates what amount of the available space inside the flex container the item should take up. </aside>
         </section>
         <section>
           <img src="images/flex-shrink.gif"/>
@@ -172,6 +188,7 @@
                       flex-shrink: <number>; /* default 1 */
                     }
               </code></pre>
+              <aside class="notes"> This defines the ability for a flex item to shrink if necessary.</aside>
         </section>
         <section>
           <p>This defines the default size of an element before the remaining space is distributed.</p>
@@ -181,6 +198,7 @@
                 }
           </code></pre>
           <img src="images/rel-vs-abs-flex.svg"/>
+          <aside class="notes"> This defines the default size of an element before the remaining space is distributed</aside>
         </section>
         <section>
           <img src="images/flex.gif"/>
@@ -197,6 +215,7 @@
                   align-self: auto | flex-start | flex-end | center | baseline | stretch;
                 }
               </code></pre>
+              <aside class="notes"> This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.</aside>
         </section>
         </section>
         <section>
